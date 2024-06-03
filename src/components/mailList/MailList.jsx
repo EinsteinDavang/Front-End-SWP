@@ -1,4 +1,4 @@
-import './mailList.css';
+import "./mailList.css";
 
 function MailList() {
   return (
@@ -14,13 +14,12 @@ function MailList() {
         </div>
       </div>
       <div className="mailDangky">
-        <div className="mailDangkyText">Đăng chỗ nghỉ của Quý vị</div>
+        <div className="mailDangkyText">Hợp tác với chúng tôi ?</div>
       </div>
       <div className="mailOptions">
         <ul className="ulOptions">
           <li className="liOption">Phiên bản di động</li>
           <li className="liOption">Tài khoản của bạn</li>
-          <li className="liOption">Thay đổi đặt phòng của bạn trực tuyến</li>
           <li className="liOption">Dịch vụ khách hàng</li>
           <li className="liOption">Trở thành đối tác của nhà phân phối</li>
           <li className="liOption">Booking for business</li>

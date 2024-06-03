@@ -1,5 +1,6 @@
-import React from 'react';
-import './featureProperties.css';
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import "./featureProperties.css";
 function FeatureProperties() {
   return (
     <div className="fp">

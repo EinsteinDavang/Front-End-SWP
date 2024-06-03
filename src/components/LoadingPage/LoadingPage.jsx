@@ -1,25 +1,26 @@
-import React from 'react';
-import loadingImage from '../../../src/assets/img/hotels.png'; // adjust the path as needed
-import BarLoader from 'react-spinners/BarLoader';
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import loadingImage from "../../../src/assets/img/badminton.png"; // adjust the path as needed
+import BarLoader from "react-spinners/BarLoader";
 export default function LoadingPage() {
   return (
     <div className="homeContainer">
       <div
         style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '92vh',
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "92vh",
         }}
       >
         <img src={loadingImage} alt="Loading" height={550} width={550} />
-        <div style={{ justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ justifyContent: "center", alignItems: "center" }}>
           <h1
             style={{
-              height: '50px',
-              fontSize: '35px',
-              textAlign: 'center',
-              margin: '40px',
+              height: "50px",
+              fontSize: "35px",
+              textAlign: "center",
+              margin: "40px",
             }}
           >
             Mở ra những chân trời mới!
